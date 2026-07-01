@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/tourism-russian-far-east/blob/main/Scopus_Paper_Analysis_v1.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elena2024-crypto/tourism-russian-far-east/blob/main/Scopus_Paper_Analysis_v1.ipynb)
 
 **This repository contains the data, code, and results for the research paper:**
 
@@ -85,6 +85,8 @@ The analysis follows a three-stage framework:
 ### Spatial Distribution
 
 The leading cluster is concentrated in the southern Pacific part of the macroregion. The intermediate cluster is geographically extensive and internally diverse, while the peripheral cluster is spatially discontinuous.
+
+---
 ## 🗺️ Spatial Distribution of Tourism Clusters
 
 [Cluster Map](results/figures/cluster_map.png)](https://github.com/elena2024-crypto/scopus-paper-analysis/blob/main/Figure_2_Tourism_Clusters.png)
@@ -94,3 +96,45 @@ The leading cluster is concentrated in the southern Pacific part of the macroreg
 ---
 
 ## 📁 Repository Structure
+## 🚀 How to Reproduce the Results
+
+### Option 1: Google Colab (Recommended)
+
+1. Click the "Open In Colab" badge at the top of this README.
+2. Upload the Excel file (`Tourism_Cluster_DFO_2023.xlsx`) when prompted.
+3. Run all cells (Runtime → Run all).
+
+### Option 2: Local Environment
+
+1. Clone the repository:
+```bash
+git clone https://github.com/elena2024-crypto/tourism-russian-far-east.git
+cd tourism-russian-far-east
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+
+jupyter notebook
+# Open notebooks/Scopus_Paper_Analysis_final.ipynb
+
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+scikit-learn==1.3.0
+matplotlib==3.7.2
+seaborn==0.12.2
+openpyxl==3.1.2
+jupyter==1.0.0
+
+@article{hoang_tourism_2026,
+  author = {Hoang, Hien T. and Bogomolova, Elena S.},
+  title = {Tourism Development in the Russian Far East: Spatial Differentiation and Cluster-Based Regional Typology},
+  journal = {Economy of Regions},
+  year = {2026},
+  volume = {22},
+  number = {3},
+  pages = {1--15},
+  doi = {10.17059/ekon.reg.2026-...}
+}

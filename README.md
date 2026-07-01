@@ -87,7 +87,7 @@ The analysis follows a three-stage framework:
 The leading cluster is concentrated in the southern Pacific part of the macroregion. The intermediate cluster is geographically extensive and internally diverse, while the peripheral cluster is spatially discontinuous.
 ## 🗺️ Spatial Distribution of Tourism Clusters
 
-![Cluster Map](results/figures/cluster_map.png)
+[Cluster Map](results/figures/cluster_map.png)](https://github.com/elena2024-crypto/scopus-paper-analysis/blob/main/Figure_2_Tourism_Clusters.png)
 
 *Figure 2. Spatial distribution of tourism-development clusters in the Far Eastern Federal District.*
 

@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elena2024-crypto/tourism-russian-far-east/blob/main/Scopus_Paper_Analysis_v1.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elena2024-crypto/scopus-paper-analysis/blob/main/Tourism_Cluster_DFE_2023_Analysis%20Final.ipynb)
 
 **This repository contains the data, code, and results for the research paper:**
 

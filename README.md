@@ -8,16 +8,7 @@ This repository contains the data, code, and results for the research paper:
 
 > Hoang, H. T., & Bogomolova, E. S. (2026). Tourism Development in the Russian Far East: Spatial Differentiation and Cluster-Based Regional Typology. *Economy of Regions*.
 
-## 📑 Table of Contents
-- [Abstract](#-abstract)
-- [Data Source](#-data-source)
-- [Methodology](#-methodology)
-- [Key Results](#-key-results)
-- [Spatial Distribution](#-spatial-distribution)
-- [Repository Structure](#-repository-structure)
-- [How to Reproduce](#-how-to-reproduce)
-- [Citation](#-citation)
-- [License](#-license)
+---
 
 ## 📋 Abstract
 
@@ -31,6 +22,8 @@ The Russian Far East is one of the largest and most spatially heterogeneous macr
 | **Intermediate Cluster** (6 regions) | Buryatia, Sakha (Yakutia), Zabaykalsky Krai, Kamchatka Krai, Amur Oblast, Sakhalin Oblast |
 | **Peripheral Cluster** (3 regions) | Magadan Oblast, Jewish Autonomous Oblast, Chukotka Autonomous Okrug |
 
+---
+
 ## 📊 Data Source
 
 The empirical analysis uses cross-sectional data for 2023 from the official statistical handbook:
@@ -41,6 +34,8 @@ The empirical analysis uses cross-sectional data for 2023 from the official stat
 - **Observations:** 11 federal subjects of the Far Eastern Federal District
 - **Indicators:** 10 tourism and service-economic indicators
 - **Dimensions:** Tourism infrastructure, tourist flows, business activity, cultural participation, service-economic environment
+
+---
 
 ## 🔬 Methodology
 
@@ -63,6 +58,8 @@ The analysis follows a three-stage framework:
 **Software:**
 - Python 3.10+ (pandas, NumPy, SciPy, scikit-learn)
 - QGIS 4.0.3 for spatial visualization
+
+---
 
 ## 📈 Key Results
 
@@ -88,15 +85,28 @@ The analysis follows a three-stage framework:
 | Retail trade turnover (million RUB) | 556,725.00 | 240,626.33 | 33,695.00 |
 | Paid services (million RUB) | 185,694.00 | 65,860.17 | 10,880.33 |
 
-### Spatial Distribution
+---
 
-The leading cluster is concentrated in the southern Pacific part of the macroregion. The intermediate cluster is geographically extensive and internally diverse, while the peripheral cluster is spatially discontinuous.
+## 📊 Figures
 
-## 🗺️ Spatial Distribution of Tourism Clusters
+### Figure 1. Hierarchical Dendrogram
 
-![Cluster Map](https://github.com/elena2024-crypto/scopus-paper-analysis/blob/main/Figure_2_Tourism_Clusters.png)
+The dendrogram shows the similarity structure among the 11 regions based on Ward's hierarchical clustering.
 
-*Figure 2. Spatial distribution of tourism-development clusters in the Far Eastern Federal District.*
+![Figure 1. Dendrogram](https://github.com/elena2024-crypto/scopus-paper-analysis/blob/main/Figure1_Dendrogram%20(1).png)
+
+### Figure 2. Spatial Distribution of Tourism Clusters
+
+The map shows the geographical distribution of the three tourism-development clusters across the Far Eastern Federal District.
+
+![Figure 2. Cluster Map](https://github.com/elena2024-crypto/scopus-paper-analysis/blob/main/Figure_2_Tourism_Clusters.png)
+
+### Figure 3. Cluster Profiles
+
+Standardized profiles of the three tourism-development clusters across 10 indicators (z-scores).
+
+![Figure 3. Cluster Profiles](https://github.com/elena2024-crypto/scopus-paper-analysis/blob/main/Figure3_Cluster_Profile%20(1).png)
+
+---
 
 ## 📁 Repository Structure
-
